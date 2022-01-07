@@ -1,0 +1,18 @@
+#pagefooter {
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+}
+div{
+    background-color: rgb(15, 12, 204);
+    width: 50%;
+    height: 100px;
+    border: rgb(216, 202, 7) dashed;
+}
+
+.sample {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(209, 15, 183);
+}

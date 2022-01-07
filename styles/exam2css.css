@@ -1,0 +1,23 @@
+.class1{
+    background-color: gray;
+}
+.class1:hover{
+    background-color: blue;
+}
+.class2{
+    background-color: green;
+}
+.class3{
+    background-color: yellow;
+}
+.class3:hover:nth-child(even){
+    background-color: indigo;
+}
+.class4{
+    text-align: center;
+    text-shadow: burlywood;
+    color: deeppink;
+}
+.class5{
+    border-color: rgb(47, 15, 224);
+}

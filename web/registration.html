@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> <b> Student Registration</b></h1>
+    <form method="post" action="E:\expertzlab\web\table.html">
+        <div>
+            
+            <label for=""><b>Name</b></label>
+        </div>
+        <div>
+            <input type="text" required  placeholder="input your name" minlength="2" maxlength="6" Name="Studentname">
+        </div>
+        <br>
+        <div>
+            <label for=""><b>email</b></label>
+        </div>
+        <div>
+            <input type="email" Name="Emailid">
+        </div>
+        <br>
+        <div>
+            <label><b>Age</b></label>
+        </div>
+        <div>
+            <input type="number" name="Your age" min="10" max="30">
+        </div>
+        <br>
+        <div>
+            <label for=""><b> States</b></label>
+        </div>
+        <div>
+            <select name="state" id="">
+                <option value="k1">Kerala</option>
+                <option value="k2">karnataka</option>
+                <option value="k3">kashmir</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Country">Choose country</label>
+            <input type="text" list="country">
+            <datalist id="country">
+                <option value="india"></option>
+                <option value="canada"></option>
+                <option value="US"></option>
+            </datalist>
+        </div>
+        <br>
+        <div><label for="">Gender</label></div>
+        --------------
+        <div>
+            Male<input type="radio" name="gender" value="Ma"></div>
+        <div>
+            Female <input type="radio" name="gender" value="Fm">
+        </div>
+        <br>
+        <div><label for="">Input your file</label></div>
+        <div>
+            <input type="file" name="myfile" multiple id="">
+        </div>
+        <br>
+        <div> <label for="">Date</label></div>
+        <div><input type="date" name="Datef" id=""></div>
+        <div>
+            <br>
+            <input type="submit" value="Register">
+        </div>
+        <br>
+        <div><input type="reset"></div>
+
+    </form>
+</body>
+
+</html>

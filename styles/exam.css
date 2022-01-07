@@ -1,0 +1,14 @@
+#pageheader {
+    background-color: darkkhaki;
+    width: 50%;
+    height: 50%;
+    border: rgb(216, 202, 7) dashed;
+    text-align: center;
+    border: red dashed;
+}
+.sample {
+    color:red ;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
